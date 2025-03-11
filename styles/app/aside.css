@@ -1,0 +1,17 @@
+aside {
+  padding: 1rem;
+
+  width: 420px;
+
+  img {
+    position: absolute;
+
+    margin-left: 7px;
+
+    width: 400px;
+    height: 750px;
+
+    border-radius: 1rem;
+
+  }
+}

@@ -1,29 +1,9 @@
 #app {
   display: grid;
-  grid-template-columns: 32% 68%;
+  grid-template-columns: 30% 70%;
 
   height: 100vh;
   overflow: hidden;
 
   gap: 1rem;
-}
-
-main {
-  overflow: auto;
-  padding: 0px;
-
-  background-color: #2D3136;
-
-  & .main-container {
-      max-width: 33rem;
-      margin-left: auto;
-  }
-}
-
-aside {
-  padding: 4rem;
-
-  & .aside-container {
-      max-width: 31rem;
-  }
 }
