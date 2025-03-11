@@ -34,3 +34,7 @@ body {
   overflow: hidden;
 }
 
+::placeholder {
+  font-size: 16px;
+  color: #869198;
+}
