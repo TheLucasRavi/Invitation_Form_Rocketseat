@@ -9,14 +9,23 @@
 
   .lc {
     font-family: 'Leckerli One';
+    --Logo: 400 40px/100%;
+    color: #FF598B;
   }
   
   .bl {
     font-family: 'Baloo 2';
+    --Logo: 700 28px/100%;
+    --Logo: 700 18px/100%;
+    color: #F9F9F9;
   }
   
   .os {
     font-family: 'Open Sans';
+    --bodymd: 400 16px/100%;
+    --bodysm: 400 14px/100%;
+    --bodyxs: 400 12px/100%;
+    color: #869198;
   }
 }
 
