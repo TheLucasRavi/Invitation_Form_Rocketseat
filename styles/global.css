@@ -6,6 +6,10 @@
 
 :root {
   font-size: 1rem;
+  
+  input {
+    color: white
+  }
 
   .lc {
     --font-family1: 'Leckerli One';
@@ -25,7 +29,7 @@
     --bodymd: 400 16px/100% var(--font-family3);
     --bodysm: 400 14px/100% var(--font-family3);
     --bodyxs: 400 12px/100% var(--font-family3);
-    color: #869198;
+    color: #F9F9F9;
   }
 }
 
