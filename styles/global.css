@@ -8,23 +8,23 @@
   font-size: 1rem;
 
   .lc {
-    font-family: 'Leckerli One';
-    --Logo: 400 40px/100%;
+    --font-family1: 'Leckerli One';
+    --Logo: 400 40px/100% var(--font-family1);
     color: #FF598B;
   }
   
   .bl {
-    font-family: 'Baloo 2';
-    --Logo: 700 28px/100%;
-    --Logo: 700 18px/100%;
+    --font-family2: 'Baloo 2';
+    --headingmd: 700 28px/100% var(--font-family2);
+    --headingsm: 700 18px/100% var(--font-family2);
     color: #F9F9F9;
   }
   
   .os {
-    font-family: 'Open Sans';
-    --bodymd: 400 16px/100%;
-    --bodysm: 400 14px/100%;
-    --bodyxs: 400 12px/100%;
+    --font-family3: 'Open Sans';
+    --bodymd: 400 16px/100% var(--font-family3);
+    --bodysm: 400 14px/100% var(--font-family3);
+    --bodyxs: 400 12px/100% var(--font-family3);
     color: #869198;
   }
 }
