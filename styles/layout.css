@@ -1,14 +1,16 @@
 #app {
   display: grid;
-  grid-template-columns: 51.25% 48.75%;
+  grid-template-columns: 32% 68%;
 
   height: 100vh;
   overflow: hidden;
+
+  gap: 1rem;
 }
 
 main {
   overflow: auto;
-  padding: 4rem;
+  padding: 0px;
 
   background-color: #2D3136;
 
