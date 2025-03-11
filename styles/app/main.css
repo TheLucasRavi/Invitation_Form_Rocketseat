@@ -6,7 +6,7 @@ main {
   width: 100%;
   height: 100%;
 
-  background-color: #2D3136;
+  background-color: #212427;
 
   border-radius: 1rem;
 
@@ -79,11 +79,9 @@ main {
 
   }
 
-  #nomedoevento::placeholder {
-    font-size: 16px;
-  }
-
   #sobre-iniciofim {
+    display: grid;
+    grid-template-columns: 39% 50%;
     margin: 24px 130px auto;
 
     #inicio {
@@ -100,6 +98,24 @@ main {
       order: 0;
       flex-grow: 0;
 
+      font: var(--bodysm);
+      color: #C8CDD0;
+    }
+
+    #fim {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 5px;
+  
+      width: 560px;
+      height: 26px;
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
       font: var(--bodysm);
       color: #C8CDD0;
     }
@@ -143,6 +159,94 @@ main {
     color: #869198;
   }
 
-  
+  #sobre-tipolocal {
+    display: grid;
+    grid-template-columns: 39% 50%;
+    margin: 24px 130px auto;
+
+    #tipo {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 5px;
+
+      width: 560px;
+      height: 26px;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+
+      font: var(--bodysm);
+      color: #C8CDD0;
+    }
+
+    #tipo1 {
+      box-sizing: border-box;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px 16px;
+      gap: 4px;
+      isolation: isolate;
+
+      width: 272px;
+      height: 48px;
+
+      background: #1C1F21;
+      border: 1px solid #363B40;
+      border-radius: 8px;
+
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+    #local {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 4px;
+      gap: 5px;
+
+      width: 560px;
+      height: 26px;
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+
+      font: var(--bodysm);
+      color: #C8CDD0;
+    }
+
+    #linkouendereco {
+      box-sizing: border-box;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px 16px;
+      gap: 4px;
+      isolation: isolate;
+
+      width: 272px;
+      height: 48px;
+
+      background: #1C1F21;
+      border: 1px solid #363B40;
+      border-radius: 8px;
+
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+  }
+
 
 }

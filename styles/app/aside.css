@@ -3,15 +3,53 @@ aside {
 
   width: 420px;
 
-  img {
+  #img {
+  
     position: absolute;
-
+  
     margin-left: 7px;
-
+  
+    max-width: 400px;
+    min-height: 40px;
+  
     width: 400px;
     height: 750px;
-
+  
     border-radius: 1rem;
-
+  
+  
   }
+  
+  #logo {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+
+    width: 45px;
+    height: 48px;
+  }
+
+  h1 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    font: var(--Logo);
+  }
+
+  p {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: auto;
+    color: #F9F9F9;
+  }
+
 }
+
+
