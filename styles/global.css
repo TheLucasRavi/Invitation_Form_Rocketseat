@@ -61,8 +61,24 @@ body {
     position: relative;
     margin-top: 4px;
   }
+
+  :hover {
+    box-sizing: border-box;
+
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid #4aff5a;
+    border-radius: 999px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+  }
 }
 
 input[type="radio"] {
-  opacity: 100;
+  opacity: 0;
 }
