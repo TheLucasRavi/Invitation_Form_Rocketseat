@@ -42,3 +42,23 @@ body {
   font-size: 16px;
   color: #869198;
 }
+
+.butao {
+
+  margin: 8px auto;
+  width: 40px;
+  height: 40px;
+
+  background: #2D3136;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  img {
+    position: relative;
+    margin-top: 4px;
+  }
+}
