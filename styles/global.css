@@ -62,3 +62,7 @@ body {
     margin-top: 4px;
   }
 }
+
+input[type="radio"] {
+  opacity: 100;
+}
