@@ -557,9 +557,6 @@ main {
   }
 
   #tema2 {
-    /* Items */
-
-    /* Auto layout */
     display: grid;
     grid-template-columns: 50rem 50rem;
     align-items: start;
@@ -579,12 +576,17 @@ main {
   }
 
   #estilo {
+    display: grid;
+    grid-template-columns: 50rem 50rem;
+    align-items: start;
+    padding: 0px;
+    gap: 5px;
     margin: 24px 130px auto;
 
     #estilo1 {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      display: grid;
+      grid-template-columns: 50rem 50rem;
+      align-items: start;
       padding: 0px;
       gap: 5px;
 
@@ -597,74 +599,140 @@ main {
 
       font: var(--bodysm);
       color: #C8CDD0;
+
     }
+
 
   }
 
-.checkbox-apple {
-  margin: 24px 130px auto;
-  position: relative;
-  width: 50px;
-  height: 25px;
-  margin: 20px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  .checkbox-apple {
+    margin: 24px 130px auto;
+    position: relative;
+    width: 50px;
+    height: 25px;
+    margin: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
-.checkbox-apple label {
-  margin: 1px 110px auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 25px;
-  border-radius: 50px;
-  background: linear-gradient(to bottom, #1C1F21, #1C1F21);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+    .file1 {
+      
+    }
+    
+  }
 
-.checkbox-apple label:after {
+  .checkbox-apple label {
+    margin: 1px 110px auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 25px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #1C1F21, #1C1F21);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .checkbox-apple label:after {
+    
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #363B40;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .checkbox-apple input[type="checkbox"]:checked + label {
+    
+    background: linear-gradient(to bottom, #4cd964, #5de24e);
+  }
+
+  .checkbox-apple input[type="checkbox"]:checked + label:after {
+    transform: translateX(25px);
+  }
+
+  .checkbox-apple label:hover {
+    
+    background: linear-gradient(to bottom, #1C1F21, #1C1F21);
+  }
+
+  .checkbox-apple label:hover:after {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
   
-  content: '';
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
-  background-color: #363B40;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-}
 
-.checkbox-apple input[type="checkbox"]:checked + label {
+  .yep {
+    display: grid;
+    grid-template-columns: 50rem 50rem;
+    align-items: start;
+    padding: 0px;
+    gap: 5px;
+
+    margin: 1px 110px auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 25px;
+
+  }
+
+
+  #estilo3 {
+    display: grid;
+    grid-template-columns: 20rem 50rem;
+    align-items: start;
+    padding: 0px;
+    gap: 5px;
+    
+  }
+
+  #file1 {
+    margin: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 8px;
+
+    width: 356px;
+    height: 40px;
+
+    background: #2D3136;
+    color: #F9F9F9;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    #file2 {
+      margin: 20px 20px;
+      width: 500px;
+      height: 17px;
+      justify-items: center;
+      align-items: center;
+    }
+    
+
+  }
+
   
-  background: linear-gradient(to bottom, #4cd964, #5de24e);
-}
 
-.checkbox-apple input[type="checkbox"]:checked + label:after {
-  transform: translateX(25px);
-}
+  input[type="file"] {
+    display: none;
 
-.checkbox-apple label:hover {
-  
-  background: linear-gradient(to bottom, #1C1F21, #1C1F21);
-}
-
-.checkbox-apple label:hover:after {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-}
-
-.yep {
-  margin: 1px 110px auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 25px;
-}
+  }
 
 }
