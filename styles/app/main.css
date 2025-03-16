@@ -615,10 +615,6 @@ main {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
-    .file1 {
-      
-    }
     
   }
 
@@ -727,8 +723,6 @@ main {
     
 
   }
-
-  
 
   input[type="file"] {
     display: none;
